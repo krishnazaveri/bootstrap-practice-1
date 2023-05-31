@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-bootstrap-layout</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .nav-link {
+            color: black;
+
+        }
+
+        .social-icon a{
+            margin: 0px 10px;
+            color: #000;
+        }
+
+        .social-icon a:hover {
+            color:grey
+        }
+
+        .social-icon button{
+            background: #a8d741;
+            border: 2px solid #000;
+            transition: 0.5s;
+        }
+
+        .social-icon button:hover {
+            background-color: white;
+            box-shadow: 0 25px 30px -20px #000000;
+            transform: scale(1.1) rotateZ(4deg);
+            color: #000000 ;
+        }
+
+        .slider {
+            background: #a8d741;
+        }
+
+        .slider h1 {
+            font-size: 80px;
+            margin: 50px 0px;
+        }
+
+        .slider button{
+            background: #000;
+            border: 2px solid #fff;
+            transition: 0.5s;
+            color: #fff;
+        }
+
+        .slider button:hover {
+            background-color: white;
+            box-shadow: 0 25px 30px -20px #000000;
+            transform: scale(1.1) rotateZ(4deg);
+            color: #000000;
+            border: 2px solid #000;
+        }
+
+        .slider .border-bottom{
+            border-color: black!important;
+        }
+
+        .p1 {
+            margin: 30px 0px!important;
+            padding: 5px;
+        }
+
+        .box{
+            background: #a8d741;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main container bg-secondary mt-4">
+        <div class="row p-2 ">
+            <div class="cname col-xl-2 text-center">
+                <h1>ToolM5</h1>
+            </div>
+           
+            <nav class="navbar navbar-expand-sm col-xl-6 text-right">
+                  <ul class="navbar-nav fs-5">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About u</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                  </ul>
+            </nav>
+
+            <div class="social-icon col-xl-4">
+                <a href=""><i class="fa-brands fa-facebook fs-4"></i></a>
+                <a href=""><i class="fa-brands fa-twitter fs-4"></i></a>
+                <a href=""><i class="fa-brands fa-instagram fs-4"></i></a>
+                <button class="rounded-pill px-3 py-1 m-2">Get Started</button>
+            </div>
+        </div>
+
+        <div class="row text-center container my-5">
+            <div class="slider rounded">
+                <p class="fs-1">Create your</p>
+                <h1>T-shirt Design</h1>
+                <button class="rounded-pill px-4 py-2 fs-3   m-2">Get Started</button><br><br>
+                <p class="fs-5 border-bottom d-inline">View how it works</p>
+                <p class="fs-6 m-3 fw-bold mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+        </div>
+
+         <div class="row d-flex justify-content-evenly container bg-warning">
+            <h4 class="border-top pt-4">Our feature</h4>
+            <div class="p1 col-xl-2 " >
+                <div class="box d-flex justify-content-between p-2">
+                    <img src="" alt="" class="border border-success p-2 mx-2">
+                    <p class="fw-bold">Unique Design
+                        <br><span class="fw-normal">Jul 13 2025</span>
+                    </p>
+                    
+                </div>
+            </div>
+
+            <div class="p1 col-xl-2 " >
+                <div class="box d-flex justify-content-between p-2">
+                    <img src="" alt="" class="border border-success p-2 mx-2">
+                    <p class="fw-bold">Unique Design
+                        <br><span class="fw-normal">Jul 13 2025</span>
+                    </p>
+                    
+                </div>
+            </div>
+
+            <div class="p1 col-xl-2 " >
+                <div class="box d-flex justify-content-between p-2">
+                    <img src="" alt="" class="border border-success p-2 mx-2">
+                    <p class="fw-bold">Unique Design
+                        <br><span class="fw-normal">Jul 13 2025</span>
+                    </p>
+                    
+                </div>
+            </div>
+
+            <div class="p1 col-xl-2 " >
+                <div class="box d-flex justify-content-between p-2">
+                    <img src="" alt="" class="border border-success p-2 mx-2">
+                    <p class="fw-bold">Unique Design
+                        <br><span class="fw-normal">Jul 13 2025</span>
+                    </p>
+                    
+                </div>
+            </div>
+          
+        </div>
+
+        <div class="row bg-dark container p-4 rounded">
+            <h3 class="text-white">How it works</h3>
+            <div class="d-flex justify-content-between my-4">
+                <div class="col-xl-5 bg-white rounded p-3 text-center">
+                    <img src="images/244890501_g0.webp" alt=" "   width="100%" >
+                    <p class="fs-1 my-3">Unique T-Shirt</p>
+                    <div class="d-flex justify-content-between ">
+                        <button class="rounded-pill px-4 py-2 ">Buy for $59</button>
+                        <button class="rounded-pill px-4 py-2 bg-success ">View All</button>    
+                    </div>
+                </div>
+
+
+                <div class="col-xl-5 bg-white rounded p-3 text-center">
+                    
+                    <p class="fs-6 my-3 border-bottom pb-3">Unique T-Shirt</p>
+                    <p class="fs-3 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, maxime? Mollitia obcaecati quasi eveniet cupiditate, aperiam aliquam harum quae magnam veritatis cum quaerat enim iusto nesciunt nemo tempore molestiae a?veritatis cum quaerat enim iusto nesciunt nemo tempore molestiae a?</p>
+                    <div class="d-flex justify-content-between ">
+                        <button class="rounded-pill px-4 py-2 ">Subscribe $59</button>
+                        <button class="rounded-pill px-4 py-2 bg-success ">More info</button>    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row bg-secondary container my-5 p-3">
+            <div class="col-xl-4 bg-info fs-4 px-5 py-2">About us</div>
+            <div class="col-xl-8 bg-warning p-3 fs-6 border-start">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos quisquam ad saepe. Id magni, delectus saepe eveniet officia et ipsum explicabo quis dicta voluptatum illum pariatur molestiae, hic, laudantium commodi.</div>
+        </div>
+
+        <div class="row container">
+            <h1>Professional Tools</h1>
+            <div class="d-flex justify-content-center p-4 box rounded">
+                <div class="col-xl-4 bg-info">
+                    <img src="" alt=" " width="100%">
+                    <p class="my-3 px-3">Quality materials
+                        <br><span class="border-bottom pb-2">lorem ipsum dolor sit amet</span>
+                    </p>
+                    
+                </div>
+                <!-- <div class="col-xl-4 bg-danger">sdf</div>
+                <div class="col-xl-4 bg-warning">sdf</div> -->
+            </div>
+        </div>
+<!--
+        <div class="row p-5">
+            <h2>Our Shop</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla suscipit orci eu pellentesque. Nullam consectetur dolor vel ex ullamcorper, non viverra neque aliquet.</p>
+        </div>
+
+        <div class="row p-5 bg-info">
+            <div class="col-xl-4 bg-danger rounded-start">sdfsd</div>
+            <div class="col-xl-8 bg-warning rounded-end">sdfsdf</div>
+        </div>
+
+        <div class="row p-5 bg-secondary">
+            <div class="col-xl-4 bg-danger rounded-start">sdfsd</div>
+            <div class="col-xl-8 bg-warning rounded-end">sdfsdf</div>
+        </div>
+ -->
+    </div>
+    
+</body>
+</html>
